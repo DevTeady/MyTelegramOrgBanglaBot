@@ -1,20 +1,20 @@
 class Translation(object):
-    START_TEXT = """Hi!
-please read the TnC before proceeding: https://t.me/SpEcHlDe/889
-Thank you for using me 😬
-Enter your Telegram Phone Number, to get the APP-ID from my.telegram.org
+    START_TEXT = """স্বাগতম!
+এগিয়ে যাওয়ার আগে দয়া করে TnC পড়ে নিন: https://t.me/UniComProjects/3
+আমার সহযোগিতা নেয়ার জন্য ধন্যবাদ 😊
+my.telegram.org থেকে সরাসরি APP_ID এবং HASH পেতে আপনার ফোন নম্বরটি দিন।
 
-/start at any stage to re-enter your details"""
-    AFTER_RECVD_CODE_TEXT = """I see!
-now please send the Telegram code that you received from Telegram!
+/start করুন যেকোনো মুহূর্তে পুনরাবৃত্তি করতে"""
+    AFTER_RECVD_CODE_TEXT = """আমি পেয়েছি!
+এখন দয়া করে আপনি টেলিগ্রামের কাছ থেকে প্রাপ্ত টেলিগ্রাম কোডটি প্রেরণ করুন!
 
-this code is only used for the purpose of getting the APP ID from my.telegram.org
-if you do not trust this bot dev, please host this bot yourself
-by opening https://github.com/SpEcHiDe/MyTelegramOrgRoBot and clicking on the Pink Button
+এই কোডটি কেবল মাত্র আপনার APP ID এবং HASH নেওয়ার জন্য।
+যদি আপনি এই বট এবং এর ডেভেলপারকে বিশ্বাস করতে না পেরেন তবে আপনি নিজেই এটি তৈরি করে নিতে পারেন।
+এখান থেকে  `https://github.com/SpEcHiDe/MyTelegramOrgRoBot` 
 
-/start at any stage to re-enter your details"""
-    BEFORE_SUCC_LOGIN = "recieved code. Scarpping web page ..."
-    ERRED_PAGE = "something wrongings. failed to get app id. \n\n@SpEcHlDe"
-    CANCELLED_MESG = "Bye! Please re /start the bot conversation"
-    IN_VALID_CODE_PVDED = "sorry, but the input does not seem to be a valid Telegram Web-Login code"
-    IN_VALID_PHNO_PVDED = "sorry, but the input does not seem to be a valid phone number"
+/start করুন যেকোনো মুহূর্তে পুনরাবৃত্তি করতে"""
+    BEFORE_SUCC_LOGIN = "কোড পেয়েছি। এখন তথ্য নেওয়া হচ্ছে ..."
+    ERRED_PAGE = "কিছু সমস্যা হয়েছে। APP_ID ও HASH পেলাম না।"
+    CANCELLED_MESG = "বিদায়! পুনরায় করতে /start করুন"
+    IN_VALID_CODE_PVDED = "দুঃখিত। তথ্যটি টেলিগ্রামের বৈধ তথ্য নয়। দয়া করে পুনরায় চেষ্টা করুন।"
+    IN_VALID_PHNO_PVDED = "দুঃখিত। আপনার দেয়া ফোন নম্বরটি সঠিক নয়।"
